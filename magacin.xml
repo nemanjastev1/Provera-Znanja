@@ -4,14 +4,15 @@
     <Artikal>
         <naziv sifra="001">Vafl</naziv>
         <datumIzrade>
-            <dan></dan>
-            <mesec></mesec>
-            <godina></godina>
+            <dan>12</dan>
+            <mesec>3</mesec>
+            <godina>2019</godina>
         </datumIzrade>
         <cena valuta="RSD">20</cena>
         <kompanija>
-            <ime></ime>
-            <adresa></adresa>
+            <ime>Swisslion</ime>
+            <adresa>Takovo BB</adresa>
         </kompanija>
         <emailProdavca>Swisslion@gmail.com</emailProdavca>
     </Artikal>
+</magacin>
