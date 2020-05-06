@@ -2,13 +2,13 @@
 <!DOCTYPE magacin SYSTEM "magacin.dtd">
 <magacin>
     <Artikal>
-        <naziv>Vafl</naziv>
+        <naziv sifra="001">Vafl</naziv>
         <datumIzrade>
             <dan></dan>
             <mesec></mesec>
             <godina></godina>
         </datumIzrade>
-        <cena>20</cena>
+        <cena valuta="RSD">20</cena>
         <kompanija>
             <ime></ime>
             <adresa></adresa>
@@ -16,16 +16,16 @@
         <emailProdavca>Swisslion@gmail.com</emailProdavca>
     </Artikal>
     <Artikal>
-        <naziv>Cokolada</naziv>
+        <naziv sifra="002">Cokolada</naziv>
         <datumIzrade>
             <dan></dan>
             <mesec></mesec>
             <godina></godina>
         </datumIzrade>
-        <cena>20</cena>
+        <cena valuta="EUR">2</cena>
         <kompanija>
             <ime></ime>
             <adresa></adresa>
         </kompanija>
-        <emailProdavca>Swisslion@gmail.com</emailProdavca>
+        <emailProdavca>Milka@gmail.com</emailProdavca>
     </Artikal>
