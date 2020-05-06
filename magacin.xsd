@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="./magacin.xml">
+<xs:element name="magacin">
+  <xs:complexType>
+    <xs:sequence>
+    <xs:element name="Artikal">
+        <xs:complexType>
+        <xs:sequence>
+            <xs:element name="naziv" type="xs:string" use="required"/>
+            <xs:complexType>
+            <xs:restriction base="xs:string">
+                <xs:minLength value="3"/>
+                <xs:maxLength value="30"/>
+            </xs:restriction>
+            
+            <xs:sequence>
+            <xs:attribute name="sifra" type="xs:integer" use="required"/>    
+            </xs:complexType>
+            </xs:sequence>
+        </xs:sequence>  
+        </xs:complexType>             
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

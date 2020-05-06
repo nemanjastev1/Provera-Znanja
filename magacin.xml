@@ -15,17 +15,3 @@
         </kompanija>
         <emailProdavca>Swisslion@gmail.com</emailProdavca>
     </Artikal>
-    <Artikal>
-        <naziv sifra="002">Cokolada</naziv>
-        <datumIzrade>
-            <dan></dan>
-            <mesec></mesec>
-            <godina></godina>
-        </datumIzrade>
-        <cena valuta="EUR">2</cena>
-        <kompanija>
-            <ime></ime>
-            <adresa></adresa>
-        </kompanija>
-        <emailProdavca>Milka@gmail.com</emailProdavca>
-    </Artikal>
