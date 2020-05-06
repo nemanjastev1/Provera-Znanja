@@ -1,3 +1,5 @@
+<?xml version="1.0"?>
+<!DOCTYPE magacin SYSTEM "magacin.dtd">
 <magacin>
     <Artikal>
         <naziv>Vafl</naziv>
@@ -7,27 +9,23 @@
             <godina></godina>
         </datumIzrade>
         <cena>20</cena>
-        <kompanijaProdavca>
+        <kompanija>
             <ime></ime>
             <adresa></adresa>
-        </kompanijaProdavca>
-        <email>Swisslion@gmail.com</email>
-    </Artikal>
-     <Artikal>
-        <naziv>Belgian Waffles</naziv>
-        <datumIzrade>$5.95</datumIzrade>
-        <cena>
-Two of our famous Belgian Waffles with plenty of real maple syrup
-        </cena>
-        <kompanijaProdavca>650</kompanijaProdavca>
-        <email></email>
+        </kompanija>
+        <emailProdavca>Swisslion@gmail.com</emailProdavca>
     </Artikal>
     <Artikal>
-        <naziv>Belgian Waffles</naziv>
-        <datumIzrade>$5.95</datumIzrade>
-        <cena>
-Two of our famous Belgian Waffles with plenty of real maple syrup
-        </cena>
-        <kompanijaProdavca>650</kompanijaProdavca>
-        <email></email>
+        <naziv>Cokolada</naziv>
+        <datumIzrade>
+            <dan></dan>
+            <mesec></mesec>
+            <godina></godina>
+        </datumIzrade>
+        <cena>20</cena>
+        <kompanija>
+            <ime></ime>
+            <adresa></adresa>
+        </kompanija>
+        <emailProdavca>Swisslion@gmail.com</emailProdavca>
     </Artikal>
