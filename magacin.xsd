@@ -1,25 +1,54 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xs:schema xmlns:xs="./magacin.xml">
-<xs:element name="magacin">
-  <xs:complexType>
-    <xs:sequence>
-    <xs:element name="Artikal">
-        <xs:complexType>
-        <xs:sequence>
-            <xs:element name="naziv" type="xs:string" use="required"/>
-            <xs:complexType>
+
+    <xs:element name="naziv" type="xs:string" use="required">
+        <xs:simpleType>
             <xs:restriction base="xs:string">
                 <xs:minLength value="3"/>
                 <xs:maxLength value="30"/>
             </xs:restriction>
-            
+        </xs:simpleType>
+    </xs:element>
+
+    <xs:element name="dan" type="xs:gDay"/>
+    <xs:element name="mesec" type="xs:gMonth"/>
+    <xs:element name="godina" type="xs:gYear"/>
+    <xs:element name="cena" type="xs:positiveInteger"/>
+    <xs:element name="ime" type="xs:string" use="required"/>
+    <xs:element name="adresa" type="xs:string" use="required"/>
+    <xs:element name="email" type="xs:string" use="required"/>
+    
+    <xs:attribute name="sifra" type="xs:integer" use="required"/>
+
+
+    <xs:element name="datumIzrade">
+        <xs:complexType>
             <xs:sequence>
-            <xs:attribute name="sifra" type="xs:integer" use="required"/>    
-            </xs:complexType>
+                <xs:element ref="dan"/>
+                <xs:element ref="mesec"/>
+                <xs:element ref="godina"/>
             </xs:sequence>
-        </xs:sequence>  
-        </xs:complexType>             
-    </xs:sequence>
-  </xs:complexType>
-</xs:element>
+        </xs:complexType>
+    </xs:element>    
+
+    <xs:element name="kompanija">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="ime"/>
+                <xs:element ref="adresa"/> 
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="Artikal">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="naziv"/>
+                <xs:element ref="datumIzrade"/>
+                <xs:element ref="cena"/>
+                <xs:element ref="kompanija"/>   
+                <xs:element ref="email"/> 
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>        
 </xs:schema>
