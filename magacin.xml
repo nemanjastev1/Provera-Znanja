@@ -1,0 +1,33 @@
+<magacin>
+    <Artikal>
+        <naziv>Vafl</naziv>
+        <datumIzrade>
+            <dan></dan>
+            <mesec></mesec>
+            <godina></godina>
+        </datumIzrade>
+        <cena>20</cena>
+        <kompanijaProdavca>
+            <ime></ime>
+            <adresa></adresa>
+        </kompanijaProdavca>
+        <email>Swisslion@gmail.com</email>
+    </Artikal>
+     <Artikal>
+        <naziv>Belgian Waffles</naziv>
+        <datumIzrade>$5.95</datumIzrade>
+        <cena>
+Two of our famous Belgian Waffles with plenty of real maple syrup
+        </cena>
+        <kompanijaProdavca>650</kompanijaProdavca>
+        <email></email>
+    </Artikal>
+    <Artikal>
+        <naziv>Belgian Waffles</naziv>
+        <datumIzrade>$5.95</datumIzrade>
+        <cena>
+Two of our famous Belgian Waffles with plenty of real maple syrup
+        </cena>
+        <kompanijaProdavca>650</kompanijaProdavca>
+        <email></email>
+    </Artikal>
